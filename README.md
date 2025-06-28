@@ -1,6 +1,6 @@
 # 🩺 Diabetes Prediction App
 # App Link: https://diabetes-prediction-app-modzstu7apbqj4ytancq3m.streamlit.app/
-👨‍💻 Developed by
+👨‍💻 Developed By<br>
 Sagnik Das<br>
 Jhinuk Guha<br><hr>
 A simple machine learning web application built with Python and Streamlit to predict whether a person is likely to have diabetes based on medical input parameters.  
