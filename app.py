@@ -1,11 +1,11 @@
-import pickle
+import joblib
 import streamlit as st
 import numpy as np
 import pandas as pd
 
 #loading the diabetes model
-with open("Diabetes_Model.sav","rb") as f:
-    model_data=pickle.load(f)
+with open("Diabetes_Model.joblib","rb") as f:
+    model_data=joblib.load(f)
     model = model_data['model']
     scaler = model_data['scaler']
 
